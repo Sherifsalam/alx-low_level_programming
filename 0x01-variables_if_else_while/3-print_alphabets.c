@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: print alpahabet in lowercase then in uppercase
  *
  * Return: Always 0 (success)
- * 
+ *
 */
 int main(void)
 {
@@ -24,7 +24,7 @@ int main(void)
 	while (CH <= 'Z')
 	{
 		putchar(CH);
-		CH++:
+		CH++;
 	}
 	putchar('\n');
 
