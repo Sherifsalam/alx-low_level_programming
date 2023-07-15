@@ -1,14 +1,14 @@
 #include<stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: print a-z in revese
  *
  * Return: Always 0 (success)
 */
 int main(void)
-
+{
 	char ch = 'z';
 
 	while (ch >= 'a')
@@ -18,3 +18,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
