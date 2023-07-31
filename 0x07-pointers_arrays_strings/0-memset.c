@@ -1,23 +1,20 @@
 #include "main.h"
 
-
 /**
- * *_memset - file memory with a constant byte
- * @s: pointert to put the constant
- * @b: constant
- * @n: max bytes to use
- * Return : pointer
- *
-*/
+ * _memset - ironnou
+ * @s: pointer to char params
+ * @b: data to change
+ * @n: index
+ * Return: *s
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int itr;
+	unsigned int i;
 
-	for (itr = 0 ; n > 0 ; itr++ ; n--)
+	for (i = 0; i < n; i++)
 	{
-		s[itr] = b;
+		s[i] = b;
 	}
-
-	return (S);
+	return (s);
 }
