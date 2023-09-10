@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdio.h>
+#include <limits.h>
+
 /*
  * File: main.h
  * Auth: (cm-amos)Amos Mwongela
